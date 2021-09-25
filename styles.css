@@ -1,0 +1,10 @@
+body{
+    background-image: url("https://mcdn.wallpapersafari.com/medium/53/72/cMIO9o.jpg");
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+}
+
+.card{
+    opacity: 0.6;
+}
+
