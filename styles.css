@@ -63,3 +63,17 @@ input{
  
 
   } 
+
+  @media only screen and (min-width: 600px) {
+
+    .card{
+
+    
+        width: 100%;
+        max-width: 40vw;
+    
+        margin: 0 auto;
+    
+    
+    }
+  } 
