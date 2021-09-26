@@ -19,7 +19,7 @@ input{
 
     
     width: 100%;
-    max-width: 70vw;
+    max-width: 30vw;
 
     margin: 0 auto;
 
@@ -38,3 +38,28 @@ input{
     width: 100%;
     margin: 0 auto;
 } */
+
+@media only screen and (max-width: 600px) 
+  {
+
+    body{
+        background-position: center;
+    }
+
+    .card{
+
+    
+        width: 100%;
+        max-width: 70vw;
+    
+        margin: 0 auto;
+    
+    
+    }
+
+    form{
+        margin-top: 200px;
+    }
+ 
+
+  } 

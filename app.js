@@ -26,6 +26,8 @@ search.addEventListener('submit', (e)=>{
 
        
         console.log(data);
+
+     
         
         nameChar.innerText = "Name:  " + data.name;
         statusChar.innerText = "Status: " + data.status;
