@@ -1,13 +1,13 @@
-const getRick = async()=>{
+const getChar = async(name)=>{
 
+   
+    const base  = "https://rickandmortyapi.com/api/character/";
 
-    const base  = "https://rickandmortyapi.com/api/character/1";
-    const response = await fetch(base);
+    const query = `?name=${name}`
+    const response = await fetch(base + query);
     const data = await response.json();
 
 
-    console.log(data);
-    return data;
+ 
+   return data.results[0];
 }
-
-getRick();
